@@ -3,8 +3,173 @@
 /* --- YOUR CODE STARTS HERE --- */
 
 
+/*/////////////////////////
+        GENERAL STYLE
+////////////////////////*/
+
+body {
+    color: #353535;
+}
+
+a {
+    color: #31577F;
+    text-decoration: none;
+}
+
+.fa-lg {
+    font-size: 30px;
+}
+
+.fa-sm {
+    font-size: 12px;
+}
+
+.btn-link {
+    color: #353535;
+}
+
+/*/////////////////////////
+        UTILITIES
+////////////////////////*/
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
 
 
+/*/////////////////////////
+        TYPOGRAPHY
+////////////////////////*/
+
+.branding {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+/*/////////////////////////
+        COMPONENTS
+////////////////////////*/
+
+.project-container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 359px;
+    height: 622px;
+}
+
+/* --- Navigation --- */
+
+.nav {
+    background: #f6f6f6;
+    padding: 12px 15px;
+    box-shadow: 0 1px 2px #ddd;
+}
+
+/* --- Header --- */
+
+.header-container {
+    padding: 10px;
+    text-align: left;
+}
+
+.logo-circle {
+    position: relative;
+    background: #B3C260;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+.logo-text {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 6px;
+}
+
+/* --- Content --- */
+
+.content-container {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+.options-bar {
+    margin-bottom: 15px;
+}
+
+/* --- Footer --- */
+
+.footer-container {
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background: #fafafa;
+    padding: 10px 15px;
+    box-shadow: 0 -1px 2px #ddd;
+}
 
 
 /* --- YOUR CODE ENDS HERE --- */

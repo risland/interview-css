@@ -4,43 +4,100 @@
     <title>Hello CSS!</title>
 </head>
 <body>
-    <div class="column">
-      <h1>End Result</h1>
-      <img src="assets/result.png" class="end-result">
+<div class="column">
+    <h1>End Result</h1>
+    <img src="assets/result.png" class="end-result">
+</div>
+
+<div class="column">
+    <h1>Your Progress...</h1>
+
+    <!-- YOUR CODE STARTS HERE -->
+
+    <div class="project-container">
+
+        <nav class="nav">
+            <div class="float-left">
+                <a class="btn-link" href="#"><span class="fa fa-lg fa-angle-left"></span></a>
+            </div>
+            <span class="title">Photo</span>
+            <div class="float-right">
+                <a class="btn-link" href="#"><span class="fa fa-repeat"></span></a>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="flex-row align-items-center">
+                <div class="flex-col mr-10">
+                    <div class="logo-circle"><span class="logo-text">Grub Street</span></div>
+                </div>
+                <div class="flex-col">
+                    <div class="branding">grubstreet</div>
+                    <a class="btn-link" href="#"><div class="text text-uppercase">Ichiran NY <span class="fa fa-sm fa-angle-right"></span></div></a>
+                </div>
+                <div class="flex-col ml-auto">
+                    <a class="btn-link" href="#"><span class="fa fa-ellipsis-h"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="assets/food.png">
+        </div>
+
+        <div class="content-container">
+            <div class="options-bar flex-row">
+                <div class="flex-col mr-10">
+                    <a class="btn-link" href="#"><span class="fa fa-heart-o"></span></a>
+                </div>
+                <div class="flex-col mr-10">
+                    <a class="btn-link" href="#"><span class="fa fa-comment-o"></span></a>
+                </div>
+                <div class="flex-col mr-10">
+                    <a class="btn-link" href="#"><span class="fa fa-paper-plane-o"></span></a>
+                </div>
+                <div class="flex-col ml-auto">
+                    <a class="btn-link" href="#"><span class="fa fa-bookmark-o"></span></a>
+                </div>
+            </div>
+            <div class="text-box">
+                <div class="subtitle">924 likes</div>
+                <div class="text">
+                    <span class="branding">grubstreet</span>
+                    Who knew tonkotsu ramen is at its best when consumed alone inside a "flavor concentration booth"? <a
+                        href="#">@ichiranny</a> are onto something, as their ...
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer flex-row space-between">
+                <div class="flex-col px-10">
+                    <a class="btn-link" href="#"><span class="fa fa-home"></span></a>
+                </div>
+                <div class="flex-col px-10">
+                    <a class="btn-link" href="#"><span class="fa fa-search"></span></a>
+                </div>
+                <div class="flex-col px-10">
+                    <a class="btn-link" href="#"><span class="fa fa-plus-square-o"></span></a>
+                </div>
+                <div class="flex-col px-10">
+                    <a class="btn-link" href="#"><span class="fa fa-heart-o"></span></a>
+                </div>
+                <div class="flex-col px-10">
+                    <a class="btn-link" href="#"><span class="fa fa-user-o"></span></a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="column">
-      <h1>Your Progress...</h1>
+    <!-- YOUR CODE ENDS HERE -->
 
+</div>
 
-      <!-- YOUR CODE STARTS HERE -->
-      
-      <img src="assets/food.png">
-      <div>
-        <span class="fa fa-angle-left"></span>
-        <span class="fa fa-repeat"></span>
-        <span class="fa fa-angle-right"></span>
-        <span class="fa fa-ellipsis-h"></span>
-        <span class="fa fa-heart-o"></span>
-        <span class="fa fa-comment-o"></span>
-        <span class="fa fa-paper-plane-o"></span>
-        <span class="fa fa-bookmark-o"></span>
-        <span class="fa fa-home"></span>
-        <span class="fa fa-search"></span>
-        <span class="fa fa-plus-square-o"></span>
-        <span class="fa fa-heart-o"></span>
-        <span class="fa fa-user-o"></span>
-      </div>
-
-
-      <!-- YOUE CODE ENDS HERE -->
-
-
-    </div>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="src/base.css">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="src/base.css">
+<link rel="stylesheet" href="style.css">
 </body>
 
 </html>
